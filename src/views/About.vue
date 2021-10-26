@@ -49,10 +49,7 @@ export default{
         //  })
          Vue.axios.get('http://localhost:8080/#/demo/vue/switchable-grid/api/products.json',{
    headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
-          "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token",
-          "Access-Control-Allow-Credentials": "true"
+
         }
       }).then(res => {
         this.list = res.data

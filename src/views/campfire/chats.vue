@@ -52,7 +52,7 @@
                   <v-card-text class=" grey lighten-3">
                       <v-text-field
                       v-model="messageForm.content"
-                      class="rounded-pill small"
+                      class="rounded small"
                       label="type_a_message"
                       solo
                       small
